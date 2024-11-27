@@ -1,0 +1,8 @@
+# compiled output
+/node_modules
+/dist
+
+# environment variable files
+.env
+.env*.local
+!.env.example
