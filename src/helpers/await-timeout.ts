@@ -1,5 +1,7 @@
-export async function awaitTimeout(min: number, max: number): Promise<void> {
-  const timeout = Math.floor(Math.random() * (max - min + 1) + min)
+import { TIMEOUT } from '../index'
+
+export async function awaitTimeout(): Promise<void> {
+  const timeout = Math.floor(Math.random() * (TIMEOUT[1] - TIMEOUT[0] + 1) + TIMEOUT[0])
 
   return new Promise(resolve => setTimeout(resolve, timeout))
 }
