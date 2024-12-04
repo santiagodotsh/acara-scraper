@@ -1,5 +1,5 @@
 <h1 align='center'>
-  Scrapes data from <a href='https://www.acara.org.ar/guia-oficial-de-precios.php'>ACARA's official price guide</a>.
+  Scrapes data from <a href='https://www.acara.org.ar/guia-oficial-de-precios.php' target='_blank'>ACARA's official price guide</a>.
 </h1>
 
 <div align='center'>
