@@ -2,7 +2,13 @@ import { fetchHTML } from '../helpers/fetch-html'
 import { handleError } from '../helpers/handle-error'
 import { ACARA_URL, MAX_RETRIES } from '..'
 
-export async function getVehiclePrices(vehicleType: string, vehicleBrand: string, vehicleModel: string, vehicleVersion: string, useProxy?: boolean) {
+export async function getVehiclePrices(
+  vehicleType: string,
+  vehicleBrand: string,
+  vehicleModel: string,
+  vehicleVersion: string,
+  useProxy?: boolean
+) {
   let retry = 0
 
   while (retry < MAX_RETRIES) {
