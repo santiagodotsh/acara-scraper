@@ -21,7 +21,9 @@
   ~$ cp .env.example .env.local
 ```
 
-Open the .env.local file and set the environment variables. Scraperapi API key is optional.
+Open the .env.local file and set the environment variables.
+
+Scraperapi API key is optional.
 
 ## Compile and run the project
 
